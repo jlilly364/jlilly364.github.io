@@ -1575,9 +1575,9 @@
 		}
 	}
 
-/* Banner */
+/* green_bank */
 
-	#banner {
+	#green_bank {
 		@include vendor('display', 'flex');
 		@include vendor('flex-direction', 'column');
 		@include vendor('justify-content', 'center');
@@ -1701,7 +1701,7 @@
 	}
 
 	body.is-preload {
-		#banner {
+		#green_bank {
 			h2 {
 				@include vendor('transform', 'scale(0.95)');
 				opacity: 0;
@@ -1774,7 +1774,7 @@
 	#main {
 		> header {
 			@include padding(12em, 0);
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/green_bank.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1899,7 +1899,7 @@
 
 	body.landing {
 		#page-wrapper {
-			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+			@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/green_bank.jpg")'));
 			background-attachment: fixed;
 			background-position: center center;
 			background-repeat: no-repeat;
@@ -1918,9 +1918,9 @@
 				background: none;
 			}
 
-			#banner,
+			#green_bank,
 			.wrapper.style4 {
-				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/banner.jpg")'));
+				@include vendor('background-image', ('linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5))', 'url("../../images/green_bank.jpg")'));
 				background-position: center center;
 				background-repeat: no-repeat;
 				background-size: cover;
